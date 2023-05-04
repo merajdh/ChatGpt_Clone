@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="?attr/colorPrimary"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:elevation="8dp"
+        app:lottie_speed="1.3"
+        app:lottie_loop="true"
+        android:id="@+id/anim_intro"
+        android:layout_marginBottom="50dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        app:lottie_rawRes="@raw/live_chatbot"
+        android:layout_width="280dp"
+        android:layout_height="280dp"/>
+
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:layout_marginBottom="100dp"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal|bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:elevation="8dp"
+            android:id="@+id/txt_app_name"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="?colorOnPrimary"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:textStyle="bold"
+            android:elevation="4dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:paddingTop="10dp"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="10dp"                android:id="@+id/txt_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:text="نسخه ۱.۰.۰ "
+            android:textColor="@color/Gray"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+
+</FrameLayout>
