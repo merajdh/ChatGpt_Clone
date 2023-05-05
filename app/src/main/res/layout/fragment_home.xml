@@ -7,4 +7,5 @@
 
     <include layout="@layout/moudule_one_home"/>
 
+    <include layout="@layout/moudule_two_home"/>
 </LinearLayout>

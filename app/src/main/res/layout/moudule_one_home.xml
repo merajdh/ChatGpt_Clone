@@ -2,21 +2,24 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_gravity="bottom"
+    android:background="@drawable/shape_main_gradiant"
+    android:layout_height="wrap_content">
 
 
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="60dp"
+        android:layout_marginEnd="30dp"
         android:layout_marginStart="30dp"
         android:layout_marginBottom="25dp"
-        android:backgroundTint="?colorPrimaryVariant"
+        android:backgroundTint="?colorPrimary"
         app:cardCornerRadius="20dp"
-        app:cardElevation="3dp"
+        app:cardElevation="0dp"
         app:strokeColor="@color/bule_seconde"
-        app:strokeWidth="1dp"
+        app:strokeWidth="1.5dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
@@ -27,25 +30,30 @@
             android:id="@+id/Edt_Search"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginStart="10dp"
+            android:layout_marginStart="15dp"
             android:layout_marginTop="16dp"
-            android:layout_marginEnd="40dp"
+            android:layout_marginEnd="50dp"
             android:layout_marginBottom="16dp"
-            android:background="?colorPrimaryVariant"
+            android:background="?colorPrimary"
             android:hint="رمز عبور"
+            android:textDirection="rtl"
+            android:textAlignment="textStart"
             android:inputType="text"
+            android:paddingEnd="4dp"
             android:textSize="14sp"
             android:textColor="?colorOnPrimary"
-            android:textColorHint="#7A7C87" />
+            android:textColorHint="#7A7C87"
+            tools:ignore="RtlCompat" />
 
         <ImageView
             android:layout_gravity="center_vertical|end"
             android:src="@drawable/ic_send"
             android:layout_marginEnd="10dp"
             android:layout_marginStart="10dp"
-            android:layout_width="18dp"
+            android:layout_width="30dp"
+            android:padding="8sp"
             android:layout_marginTop="2dp"
-            android:layout_height="20dp"
+            android:layout_height="30dp"
             app:tint="?colorOnPrimary" />
     </com.google.android.material.card.MaterialCardView>
 
