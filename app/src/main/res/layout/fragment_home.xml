@@ -5,7 +5,9 @@
     android:background="?colorPrimary"
     android:layout_height="match_parent">
 
-    <include layout="@layout/moudule_one_home"/>
+    <include layout="@layout/moudule_one_home"
+        android:id="@+id/moudule_one_home"/>
 
-    <include layout="@layout/moudule_two_home"/>
+    <include layout="@layout/moudule_two_home"
+        android:id="@+id/moudule_two_home"/>
 </LinearLayout>

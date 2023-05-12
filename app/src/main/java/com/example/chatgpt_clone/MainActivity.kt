@@ -2,14 +2,12 @@ package com.example.chatgpt_clone
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.Handler
 import androidx.fragment.app.Fragment
 import com.example.chatgpt_clone.databinding.ActivityMainBinding
-import com.example.chatgpt_clone.home.HomeFragment
-import com.example.chatgpt_clone.intro.IntroFragment
+import com.example.chatgpt_clone.ui.home.HomeFragment
+import com.example.chatgpt_clone.ui.intro.IntroFragment
 import java.util.*
 import kotlin.concurrent.schedule
-import kotlin.concurrent.timer
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding

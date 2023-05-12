@@ -1,4 +1,4 @@
-package com.example.chatgpt_clone.intro
+package com.example.chatgpt_clone.ui.intro
 
 import android.os.Bundle
 import android.view.LayoutInflater
